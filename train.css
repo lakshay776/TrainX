@@ -1,0 +1,151 @@
+
+body {
+    background: linear-gradient(135deg, #1b1b1b, #2d2d2d);
+    font-family: 'Poppins', sans-serif;
+    color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://img.freepik.com/premium-vector/vector-black-grid-line-background_29977-18.jpg");
+    
+}
+
+
+
+
+#notnav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+    gap: 25px;
+    max-width: 1200px;
+    margin: 60px;
+}
+
+
+#train {
+    margin: 20px 0 0 0;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.parent_new_session,
+#train {
+    background: rgba(50, 50, 50, 0.6);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    width: 90%;
+    max-width: 700px;
+}
+
+#workout-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+
+#today {
+    flex: 1;
+    min-width: 350px;
+    background: rgba(50, 50, 50, 0.8);
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    height:fit-content;
+}
+
+
+#historic {
+    flex: 1;
+    min-width: 350px;
+    background: rgba(50, 50, 50, 0.8);
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+
+    height:fit-content;
+}
+
+
+#types,
+#sets,
+#reps,
+#weights,
+#musclegroup,
+#dateInput {
+    background: rgba(80, 80, 80, 0.8);
+    border: none;
+    border-radius: 12px;
+    color: white;
+    font-size: 16px;
+    padding: 12px;
+    outline: none;
+    text-align: center;
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+}
+
+#log,
+#fetchWorkouts {
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    background: linear-gradient(135deg, #1fa851, #0e7c36);
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin:10px;
+}
+
+#log:hover,
+#fetchWorkouts:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);
+}
+
+
+#dailyStreak {
+    position: absolute;
+    right: 20px;
+    width: 200px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    background: linear-gradient(135deg, #3b8d59, #2a6b42);
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+    font-size: 20px;
+    font-weight: bold;
+    color: yellowgreen;
+}
+
+.log-entry {
+    background: rgba(80, 80, 80, 0.8);
+    padding: 15px;
+    border-radius: 10px;
+    border-left: 5px solid #4CAF50;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+    color: white;
+    width: 90%;
+    margin: 20px;
+}
+.X {
+    color: #3b8d59; 
+    font: 45px sans-serif;
+}
